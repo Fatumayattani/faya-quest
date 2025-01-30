@@ -28,7 +28,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gray-100 flex">
       {/* Left Side (30%) - Image */}
-      <div className="w-[30%] bg-gray-200 flex items-center justify-center">
+      <div className="w-1/3 bg-gray-200 flex items-center justify-center">
         <img
           src="https://placehold.co/600x400" // Replace with your image URL
           alt="Placeholder"
@@ -37,7 +37,7 @@ export default function App() {
       </div>
 
       {/* Right Side (70%) - Form and Instructions */}
-      <div className="w-[70%] p-8 overflow-y-auto">
+      <div className="w-2/3 p-8 overflow-y-auto">
         <h1 className="text-3xl font-bold text-center mb-8">AI Agent Manager</h1>
         <div className="max-w-2xl mx-auto">
           <form onSubmit={handleSubmit} className="mb-8">
